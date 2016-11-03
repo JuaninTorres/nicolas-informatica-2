@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+a {
+    text-decoration: none;
+    background-color: RGBA(51, 74, 122, 0);
+    border-radius: 5px;
+    padding: 0.5em;
+}
+a:hover {
+    color: white;
+    background-color: RGBA(51, 74, 122, 1.0);
+}
+nav {
+    width: 200px;
+}
+nav li {
+    margin: 0.5em 0;
+}
+
+body.cabecera {
+    background-color: #3F9;
+}
+body.cabecera div {
+    display: inline-block;
+}
+body.cabecera div.titulo {
+    font-size: 2em;
+}
+body.autor {
+    background-color: #CC3300;
+    color: #3F0;
+}
+body.autor td,body.autor th {
+    color: #3F0;
+}
+body.pie {
+    text-align: center;
+    background-color: #FC6;
+}
+body.pie td,body.pie th {
+    color: #03F;
+}
+body.vinculos {
+    background-color: #CF6;
+}
+body.vinculos td,body.vinculos th {
+    color: #93C;
+}
