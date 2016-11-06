@@ -1,53 +1,123 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
 
 body {
     margin: 0;
+    margin-left: 0.5em;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+a, a:visited, a:active {
+    color: rgba(51, 74, 122, 1.0);
 }
 a {
-    text-decoration: none;
-    background-color: RGBA(51, 74, 122, 0);
+    background-color: rgba(51, 74, 122, 0);
     border-radius: 5px;
+    font-weight: bold;
     padding: 0.5em;
+    text-decoration: none;
+    transition: all ease-in-out 0.5s;
 }
 a:hover {
     color: white;
-    background-color: RGBA(51, 74, 122, 1.0);
+    background-color: rgba(51, 74, 122, 1.0);
 }
 nav {
     width: 200px;
 }
-nav li {
+nav h3 {
+    padding-left: 0.5em;
+}
+nav ul {
+    list-style: none;
+    padding-left: 1em;
+}
+nav ul li {
     margin: 0.5em 0;
 }
 
 body.cabecera {
-    background-color: #3F9;
+    background: #3F9 linear-gradient(rgba(47, 63, 72, 1.00), rgba(198, 198, 198, 1.00));
+    background-size: cover;
 }
 body.cabecera div {
     display: inline-block;
 }
 body.cabecera div.titulo {
     font-size: 2em;
+    margin-left: 3em;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    position: absolute;
+    top: 1.5em;
+}
+body.cabecera img {
+    height: 110px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 body.autor {
-    background-color: #CC3300;
-    color: #3F0;
-}
-body.autor td,body.autor th {
-    color: #3F0;
+    background-color: rgba(209, 221, 245, 1.00);
+    padding-left: 0.5em;
 }
 body.pie {
     text-align: center;
     background-color: #FC6;
 }
-body.pie td,body.pie th {
-    color: #03F;
+body.pie{
+    color: rgba(156, 76, 18, 1.00)
+}
+body.pie a {
+    color: rgba(156, 76, 18, 1.00);
+    background-color: rgba(156, 76, 18, 0);
+}
+body.pie a:hover {
+    color: white;
+    background-color: rgba(156, 76, 18, 1.00);
+}
+body.pie h3 {
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 body.vinculos {
     background-color: #CF6;
 }
 body.vinculos td,body.vinculos th {
     color: #93C;
+}
+body.vinculos ul {
+    list-style: none;
+    padding-left: 1em;
+}
+body.vinculos ul li {
+    margin: 0.5em 0;
+}
+body.contacto {
+    font-size: 18px;
+}
+body.contacto input, body.contacto textarea{
+    width: 500px;
+    margin-bottom: 0.5em;
+    font-size: 18px;
+    border: 1px solid rgba(51, 74, 122, 1.0);
+    border-radius: 5px;
+}
+body.contacto label{
+    display: block;
+    width: 250px;
+}
+body.contacto button{
+    background: rgba(255, 255, 255, 1.0);
+    border-radius: 5px;
+    border: 2px solid rgba(51, 74, 122, 1.0);
+    color: rgba(51, 74, 122, 1.0);
+    display: block;
+    font-size: 1.2em;
+    padding: 0.5em;
+    width: 100px;
+    transition: 0.5s all ease-in-out;
+}
+body.contacto button:hover{
+    background: rgba(51, 74, 122, 1.0);
+    color: rgba(255, 255, 255, 1.0);
+    cursor: pointer;
 }
