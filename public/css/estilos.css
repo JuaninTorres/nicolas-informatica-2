@@ -81,9 +81,6 @@ body.pie h3 {
 body.vinculos {
     background-color: #CF6;
 }
-body.vinculos td,body.vinculos th {
-    color: #93C;
-}
 body.vinculos ul {
     list-style: none;
     padding-left: 1em;
@@ -121,6 +118,10 @@ body.contacto button:hover{
     color: rgba(255, 255, 255, 1.0);
     cursor: pointer;
 }
-body.proyecto td {
-    text-align: center;
+body.proyecto ul {
+    list-style: none;
+    padding-left: 1em;
+}
+body.proyecto ul li {
+    margin: 0.5em 0;
 }
