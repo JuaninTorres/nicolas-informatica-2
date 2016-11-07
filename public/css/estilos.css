@@ -121,3 +121,6 @@ body.contacto button:hover{
     color: rgba(255, 255, 255, 1.0);
     cursor: pointer;
 }
+body.proyecto td {
+    text-align: center;
+}
